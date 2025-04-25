@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="147d2944-ec91-4c30-b355-50862c6ddf6b" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/3D Time–Frequency Surface of Bridge Response.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bode_Plot_of_System Response(2D Plot).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Damped_Vibration_Response(2D Plot).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Time_History_of_Displacement(2D Plot).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frequency_Response(2D Plot).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Error vs Time plot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3D Time–Frequency Surface of Bridge Response.py" beforeDir="false" afterPath="$PROJECT_DIR$/3D Time–Frequency Surface of Bridge Response.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bridge_response_3d.html" beforeDir="false" afterPath="$PROJECT_DIR$/bridge_response_3d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multi_viz.html" beforeDir="false" afterPath="$PROJECT_DIR$/multi_viz.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +49,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.3D Time–Frequency Surface of Bridge Response.executor": "Run",
     "Python.3D_Oscillating_Image.executor": "Run",
     "Python.3D_Oscillating_interaction.executor": "Run",
     "Python.3D_Oscillation_interation_02.executor": "Run",
@@ -59,9 +59,10 @@
     "Python.Build_Data_Table.executor": "Run",
     "Python.Damped_Vibration_Response(2D Plot).executor": "Run",
     "Python.Effect_of_Damping_on_Displacement.executor": "Run",
+    "Python.Error vs Time plot.executor": "Run",
     "Python.SetUp_table.executor": "Run",
     "Python.Time_History_of_Displacement(2D Plot).executor": "Run",
-    "Python.frequency_Response(2D Plot).executor": "Debug",
+    "Python.frequency_Response(2D Plot).executor": "Run",
     "Python.text_extract_files_names.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -94,7 +95,7 @@
       <workItem from="1745170203420" duration="4997000" />
       <workItem from="1745178489412" duration="1539000" />
       <workItem from="1745199473099" duration="3327000" />
-      <workItem from="1745536563376" duration="5443000" />
+      <workItem from="1745536563376" duration="9419000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -160,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745538575439</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update">
+      <option name="closed" value="true" />
+      <created>1745551384777</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1745551384777</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,16 +182,18 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Bridge_Oscillation_Project$SetUp_table.coverage" NAME="SetUp_table Coverage Results" MODIFIED="1745177040361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Bridge_Oscillation_Project$text_extract_files_names.coverage" NAME="text_extract_files_names Coverage Results" MODIFIED="1745199499187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Bridge_Oscillation_Project$frequency_Response_2D_Plot_.coverage" NAME="frequency_Response(2D Plot) Coverage Results" MODIFIED="1745549981584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Bridge_Oscillation_Project$3D_Oscillating_Image.coverage" NAME="3D_Oscillating_Image Coverage Results" MODIFIED="1745177447156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Bridge_Oscillation_Project$Bode_Plot_of_System_Response_2D_Plot_.coverage" NAME="Bode_Plot_of_System Response(2D Plot) Coverage Results" MODIFIED="1745551182067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Bridge_Oscillation_Project$frequency_Response_2D_Plot_.coverage" NAME="frequency_Response(2D Plot) Coverage Results" MODIFIED="1745553454676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Bridge_Oscillation_Project$3D_TimeFrequency_Surface_of_Bridge_Response.coverage" NAME="3D Time–Frequency Surface of Bridge Response Coverage Results" MODIFIED="1745551501044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Bridge_Oscillation_Project$Bode_Plot_of_System_Response_2D_Plot_.coverage" NAME="Bode_Plot_of_System Response(2D Plot) Coverage Results" MODIFIED="1745554211246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Bridge_Oscillation_Project$3D_Oscillating_Image.coverage" NAME="3D_Oscillating_Image Coverage Results" MODIFIED="1745554516647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Bridge_Oscillation_Project$3D_oscillating.coverage" NAME="3D_oscillating Coverage Results" MODIFIED="1745170617394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Differential_Equation" />
-    <SUITE FILE_PATH="coverage/Bridge_Oscillation_Project$3D_Oscillating_interaction.coverage" NAME="3D_Oscillating_interaction Coverage Results" MODIFIED="1745173741138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Bridge_Oscillation_Project$Damped_Vibration_Response_2D_Plot_.coverage" NAME="Damped_Vibration_Response(2D Plot) Coverage Results" MODIFIED="1745550213914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Bridge_Oscillation_Project$3D_Oscillation_interation_02.coverage" NAME="3D_Oscillation_interation_02 Coverage Results" MODIFIED="1745179682691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Bridge_Oscillation_Project$3D_Oscillating_interaction.coverage" NAME="3D_Oscillating_interaction Coverage Results" MODIFIED="1745554505579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Bridge_Oscillation_Project$Damped_Vibration_Response_2D_Plot_.coverage" NAME="Damped_Vibration_Response(2D Plot) Coverage Results" MODIFIED="1745553182238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Bridge_Oscillation_Project$3D_Oscillation_interation_02.coverage" NAME="3D_Oscillation_interation_02 Coverage Results" MODIFIED="1745554454692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Bridge_Oscillation_Project$Build_Data_Table.coverage" NAME="Build_Data_Table Coverage Results" MODIFIED="1745170553140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Bridge_Oscillation_Project$Effect_of_Damping_on_Displacement.coverage" NAME="Effect_of_Damping_on_Displacement Coverage Results" MODIFIED="1745538355143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Bridge_Oscillation_Project$Error_vs_Time_plot.coverage" NAME="Error vs Time plot Coverage Results" MODIFIED="1745552933300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Bridge_Oscillation_Project$3_scenarios_oscillation.coverage" NAME="3_scenarios_oscillation Coverage Results" MODIFIED="1745177143306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Bridge_Oscillation_Project$Time_History_of_Displacement_2D_Plot_.coverage" NAME="Time_History_of_Displacement(2D Plot) Coverage Results" MODIFIED="1745550535333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Bridge_Oscillation_Project$Time_History_of_Displacement_2D_Plot_.coverage" NAME="Time_History_of_Displacement(2D Plot) Coverage Results" MODIFIED="1745552078543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

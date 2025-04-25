@@ -38,3 +38,5 @@ fig.update_layout(
 )
 fig.show()
 # To export: fig.write_html("time_frequency_surface.html", include_plotlyjs='cdn')
+# )
+fig.write_html("time_frequency_surface.html", include_plotlyjs="cdn", full_html=True)
